@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Main</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      #txt_welcome {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .card {
+        text-align: center;
+      }
+
+      .card_title {
+        font-size: 20px;
+      }
+
+      .card_button {
+        font-size: 25px;
+        width: 150px;
+        height: 30px;
+      }
+
+      .card_img {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>박정준의 포트폴리오</h1>
+    <div id="txt_welcome">
+      <br />
+      안녕하세요 개발자 지망생 박정준입니다
+      <br />
+      <br />
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr">
+      <div class="card">
+        <p class="card_title">GLINS</p>
+        <input
+          class="card_button"
+          type="button"
+          value="order"
+          onclick="alert('아직 연결 안함');"
+        />
+      </div>
+      <div class="card">
+        <p class="card_title">프로젝트2</p>
+        <input
+          class="card_button"
+          type="button"
+          value="order"
+          onclick="alert('아직 없음');"
+        />
+      </div>
+      <div class="card">
+        <p class="card_title">프로젝트3</p>
+        <input
+          class="card_button"
+          type="button"
+          value="order"
+          onclick="alert('아직 없음');"
+        />
+      </div>
+    </div>
+  </body>
+</html>
